@@ -1,0 +1,39 @@
+{
+  "name": "no-dirt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test-db": "node scripts/test-db.js",
+    "start": "node app.js",
+    "dev": "nodemon",
+    "seed:admin": "node scripts/seedAdmin.js",
+    "create:admin": "node scripts/createAdmin.js",
+    "test:email": "node scripts/testEmail.js",
+    "preview:email": "node scripts/previewEmail.js"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.12.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "docxtemplater": "^3.69.0",
+    "dotenv": "^16.6.1",
+    "ejs": "^3.1.10",
+    "express": "^4.18.0",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.10",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pdfkit": "^0.18.0",
+    "pizzip": "^3.2.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
